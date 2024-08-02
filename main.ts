@@ -12,6 +12,6 @@ function calcExp (k: number) {
     let v5 = 1 / (8 * k + 6)
     return v1 * (v2 - v3 - v4 - v5)
 }
-let sum = 0
-let pi = calcPi(100)
-basic.showString("" + (pi))
+let sum = 0;
+let pi = calcPi(100);
+basic.showString("" + (pi));
